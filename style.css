@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+input, button {
+  padding: 0.5rem;
+  margin: 1rem;
+  width: 80%;
+  font-size: 1rem;
+}
+button {
+  background: #0a84ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+video {
+  margin-top: 20px;
+  max-width: 100%;
+  border: 2px solid #555;
+}

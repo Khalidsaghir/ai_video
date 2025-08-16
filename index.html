@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Video Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎥 AI Video Generator</h1>
+    <input type="text" id="prompt" placeholder="Enter your prompt..." />
+    <button onclick="generateVideo()">Generate Video</button>
+    <div id="loading" style="display:none;">⏳ Generating video...</div>
+    <video id="outputVideo" controls style="display:none;"></video>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> 
