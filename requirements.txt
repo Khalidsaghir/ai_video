@@ -1,0 +1,13 @@
+streamlit
+modelscope
+torch
+transformers
+diffusers
+flask
+imageio
+imageio-ffmpeg
+requests
+streamlit
+flask
+requests
+python-dotenv
